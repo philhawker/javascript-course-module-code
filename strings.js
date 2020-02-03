@@ -44,5 +44,5 @@ str.toLowerCase(); // "the quick brown fox jumped over the lazy dog"
 
 var messyString = '    Hi there    ';
 
-messyString.trim(); // "Hi there"
+messyString.trim(); // "Hi there" trims fron and end spaces
 
