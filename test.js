@@ -1,7 +1,3 @@
-var cat, dog;
-cat = 'meow';
-dog = 'bark';
-
-console.log(cat, dog);
-console.log(cat);
-console.log(dog);
+const kitty, doggy
+let kitty = 'Carl'
+let doggy = 'Dale'
