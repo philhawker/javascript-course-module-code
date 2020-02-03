@@ -16,7 +16,7 @@
 
 var num = 2;
 
-num++; // 2
+num++; // 2 This is incrementing. this will add 1 each time the num varibale is called
 
 ++num; // 4
 
