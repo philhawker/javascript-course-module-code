@@ -6,7 +6,7 @@
 
 2 * 10; // 20
 
-5 % 2; // 1
+5 % 2; // 1  % this is modulous or remainder. used for finding every other or odds and even
 
 10 % 2; // 0
 
