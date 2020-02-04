@@ -1,6 +1,6 @@
 
 var greeting = function () {
-    return "Hi there!";
+    return "Hi there!";        //this is a function expression
 };
 
 var age = 4;
@@ -10,7 +10,7 @@ if (age <= 10) {                                 // age can be called from anywh
         return "Kids' Menu";
     };
 
-    function wrongMenuBuilder() {
+    function wrongMenuBuilder() {           // this is a declaration and should not be used within {}
         return "Wrong Kids' Menu";
     }
 
