@@ -6,7 +6,7 @@ var greeting = function () {
 var age = 4;
 
 if (age <= 10) {                                 // age can be called from anywhere. if statements dont have to be underneath it
-    var buildMenu = function () {
+    var buildMenu = function () {       //this is also an expression. use this format inside of {}
         return "Kids' Menu";
     };
 
