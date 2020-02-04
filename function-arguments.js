@@ -7,7 +7,7 @@ function fullName(firstName, lastName) {
 console.log(fullName('kelsey', 'hawker'))
 
 function name(firstName, lastName, language) {
-    language = language || 'English'                         // || means or. this line is setting a default value for the argument language
+    language = language || 'English'                         // || means OR this line is setting a default value for the argument language
     return lastName.toUpperCase() + ", " + firstName.toUpperCase() + ' - ' + language
 }
 
