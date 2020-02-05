@@ -2,7 +2,7 @@ var guide = {
     title: 'Guide to Programming',
     content: 'Content goes here...',
     visibleToUser: function (viewingUserRole) {
-        if (viewingUserRole === 'paid') {
+        if (viewingUserRole === 'paid') {          // '===' must be paid and a string
             return true;
         }
     },
