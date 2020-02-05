@@ -26,6 +26,6 @@ var myFamily = [
     'sadie',
 ];
 
-myFamily.forEach(function(element) {    // This is the forEach loop. should use this more
+myFamily.forEach(function(element) {    // ***This is the forEach loop. should use this more***
     console.log(element)
 })
