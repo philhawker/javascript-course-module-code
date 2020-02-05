@@ -1,4 +1,4 @@
-var guide = {
+var guide = {                                   // This var is an object, or basically a library format. similar to the schemas in flask
     title: 'Guide to Programming',
     content: 'Content goes here...',
     visibleToUser: function (viewingUserRole) {
