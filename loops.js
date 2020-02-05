@@ -16,7 +16,7 @@ var morePlayers = [
     'Springer'
 ];
 
-for (player in morePlayers) {
+for (var player in morePlayers) {
     console.log(morePlayers[player])    // This is the modern way to format a for loop. its the same as above
 }
 
