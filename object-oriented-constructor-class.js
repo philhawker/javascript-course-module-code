@@ -1,6 +1,6 @@
 // CLASSES ARE JUST BLUEPRINTS. THEY DO NOTHING UNLESS USED
 class Instructor {
-    constructor({name}) {   // constructors are always objects ({}) and are basically functions
+    constructor({name}) {   // constructors dont have to be objects ({})
         this.name = name
     }
 }
