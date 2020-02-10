@@ -37,3 +37,4 @@ console.log(
 console.log(
     `${seniorInstructor.name} can teach: ${Instructor.canTeach(seniorInstructor)}`
 );
+
