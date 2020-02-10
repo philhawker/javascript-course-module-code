@@ -25,7 +25,7 @@ console.log(Math.max(...orderTotals))  // without ... it will return NaN. Not a 
 
 
 //OBJECT DECONSTRUCTION
-const {starter, closer, ...relievers} = {
+const {starter, closer, ...relievers} = {   //...relievers is combining everything left over in the object and is assigning it to relievers 
     starter: 'kelsey',
     closer: 'sadie',
     relief_1: 'phil',
