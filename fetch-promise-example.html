@@ -19,7 +19,7 @@
         .then(data => data.json())
         .then(data => {
             data.posts.forEach((item) => {
-                console.log(item.url_for_post)
+                console.log(item.title)
             })
         })
         .catch((err) => {
