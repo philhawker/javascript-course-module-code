@@ -1,3 +1,5 @@
-const kitty, doggy
-let kitty = 'Carl'
-let doggy = 'Dale'
+fullName = (first, last) => {
+    return '${first} ${last}';
+}
+
+alert(fullName('kelsey', 'hawker'))
